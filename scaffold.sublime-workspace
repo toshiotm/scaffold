@@ -1,0 +1,466 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"A",
+				"ActiveResource"
+			],
+			[
+				"sear",
+				"search_bar_val"
+			],
+			[
+				"search",
+				"searchShop"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"shopping",
+				"shoppingBag2"
+			],
+			[
+				"la",
+				"launch_camera_p"
+			],
+			[
+				"launch",
+				"launch_camera_p"
+			],
+			[
+				"lan",
+				"launch_camera"
+			],
+			[
+				"reader",
+				"readerForSaveImage"
+			],
+			[
+				"loadS",
+				"loadShoppingBags"
+			],
+			[
+				"shpping",
+				"shoppingBagDelBtn"
+			],
+			[
+				"image",
+				"image"
+			],
+			[
+				"shopp",
+				"shopping_name"
+			],
+			[
+				"set",
+				"setShoppingBag"
+			],
+			[
+				"shop",
+				"shoppingBag"
+			],
+			[
+				"newEmp",
+				"newEmptyItem"
+			],
+			[
+				"shoo",
+				"shopBookAry"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"hide",
+				"hide_del_btn"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"ca",
+				"cashflow"
+			],
+			[
+				"Cash",
+				"cashflow"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"unit",
+				"unit_choices"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/toshi/Dropbox/private/publish/akaji_3rd/sample/6-2/minimam.html",
+		"/Users/toshi/Documents/hproject/scaffold/scaffold.sublime-workspace",
+		"/Users/toshi/Dropbox/private/publish/akaji/sample/6-6/js/shopping.js",
+		"/Users/toshi/Dropbox/private/publish/akaji/sample/6-5/js/shopping.js",
+		"/Users/toshi/Dropbox/HTML5＆JavaScript/from ohtomo/akaji/sample/6-6/new_shop_item.html",
+		"/Users/toshi/Dropbox/private/publish/akaji/sample/6-4/js/shopping.js",
+		"/Users/toshi/Dropbox/private/publish/akaji/sample/6-5/index.html",
+		"/Users/toshi/Dropbox/private/publish/akaji/sample/6-9/shop_list.html",
+		"/Users/toshi/Dropbox/private/publish/akaji/sample/6-6/new_shop_item.html",
+		"/Users/toshi/Dropbox/HTML5＆JavaScript/from ohtomo/sample/ShoppingBag/new_shop_item.html",
+		"/Users/toshi/Documents/hproject/scaffold/app/controllers/shops_controller.rb",
+		"/Users/toshi/Documents/hproject/scaffold/app/views/search_top/index.html.erb",
+		"/Users/toshi/Documents/hproject/scaffold/config/routes.rb",
+		"/Users/toshi/Documents/hproject/scaffold/Gemfile",
+		"/Users/toshi/Documents/hproject/scaffold/Gemfile.lock",
+		"/Users/toshi/Documents/hproject/scaffold/app/helpers/search_top_helper.rb",
+		"/Users/toshi/Documents/hproject/scaffold/app/views/layouts/application.html.erb",
+		"/Users/toshi/Documents/hproject/scaffold/app/views/shops/index.html.erb",
+		"/Users/toshi/Documents/hproject/scaffold/public/index2.html",
+		"/Users/toshi/Documents/hproject/scaffold/app/views/search_top/untitled",
+		"/Users/toshi/Documents/hproject/scaffold/app/assets/javascripts/application.js",
+		"/Users/toshi/Documents/hproject/scaffold/app/models/shop.rb",
+		"/Users/toshi/Documents/hproject/scaffold/app/views/shops/edit.html.erb",
+		"/Users/toshi/Documents/hproject/scaffold/app/views/shops/show.html.erb",
+		"/Users/toshi/Documents/hproject/scaffold/app/views/shops/_form.html.erb",
+		"/Users/toshi/Documents/hproject/html5js/public/index.html",
+		"/Users/toshi/Documents/hproject/html5js/public/new_shop_item.html",
+		"/Users/toshi/Documents/hproject/html5js/public/new_shop.html",
+		"/Users/toshi/Documents/hproject/html5js/public/index_mani.html",
+		"/Users/toshi/Documents/hproject/html5js/public/new_shop2.html",
+		"/Users/toshi/Documents/hproject/html5js/public/shop_list.html",
+		"/Users/toshi/Documents/hproject/html5js/public/shoppingbag.manifest",
+		"/Users/toshi/Documents/hproject/html5js/public/minimam.html",
+		"/Users/toshi/Documents/hproject/html5js/public/index2.html",
+		"/Users/toshi/Documents/hproject/html5js/public/bootstrap_header_sample.html",
+		"/Users/toshi/Documents/hproject/html5js/public/bootstrap_footer_sample.html",
+		"/Users/toshi/Documents/hproject/html5js/public/bootstrap_section_sample.html",
+		"/Users/toshi/Documents/hproject/html5js/public/js/shopping.js",
+		"/Users/toshi/Documents/hproject/html5js/public/css/bootstrap.css",
+		"/Users/toshi/Library/Containers/com.apple.Preview/Data/Desktop/bootstrap_section_sample.png",
+		"/Users/toshi/Documents/hproject/html5js/public/shop_list2.html",
+		"/Users/toshi/Documents/hproject/html5js/public/new_shop_item2.html",
+		"/Users/toshi/Dropbox/private/publish/sample/bootstrap_header_sample.html",
+		"/Users/toshi/Documents/hproject/html5js/public/img/glyphicons-halflings.png",
+		"/Users/toshi/Documents/hproject/html5js/html5js.sublime-workspace",
+		"/Users/toshi/Documents/hproject/html5js/public/sample.html",
+		"/Users/toshi/Dropbox/HTML5＆JavaScript/from ohtomo/sample/ShoppingBag/買い物アプリケーションJSONサンプル.txt",
+		"/Users/toshi/Dropbox/HTML5＆JavaScript/from ohtomo/sample/JSONサンプル.txt",
+		"/Users/toshi/Documents/hproject/html5js/public/css/bootstrap-responsive.css",
+		"/Users/toshi/Documents/hproject/html5js/public/css/bootstrap-responsive.min.css",
+		"/Users/toshi/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/toshi/Documents/hproject/html5js/public/jsonSample.txt",
+		"/Users/toshi/Documents/hproject/html5js/public/test/shopping_test.js",
+		"/Users/toshi/Documents/hproject/html5js/public/test/index.html",
+		"/Users/toshi/Documents/dotinstall/html5memoapp/index.html",
+		"/Users/toshi/Documents/hproject/html5js/public/new_shop_book.html",
+		"/Users/toshi/Documents/hproject/html5js/public/edit.html",
+		"/Users/toshi/Documents/hproject/html5js/public/edit_shop.html",
+		"/Users/toshi/Documents/hproject/html5js/public/css/mydiary.css",
+		"/Users/toshi/Documents/hproject/html5js/public/js/mydiary.js",
+		"/Users/toshi/Documents/hproject/html5js/public/mydialy.txt",
+		"/Users/toshi/Documents/hproject/rabbit/public/ever_diary.html",
+		"/Users/toshi/Documents/hproject/rabbit/public/index.html",
+		"/Users/toshi/Documents/hproject/pomodoro/public/index.html",
+		"/Users/toshi/Documents/hproject/pomodoro/Gemfile",
+		"/Users/toshi/Documents/hproject/html5js/Gemfile",
+		"/Users/toshi/Documents/gitrepos/Life_a_Zaim/Life_a_Zaim/public/index.html",
+		"/Users/toshi/Dropbox/private/publish/HTML5＆JavaScript/index.html",
+		"/Users/toshi/Documents/gitrepos/Life_a_Zaim/Life_a_Zaim/app/views/cashflows/_form.html.erb",
+		"/Users/toshi/Documents/gitrepos/Life_a_Zaim/Life_a_Zaim/spec/helpers/cashflows_helper_spec.rb",
+		"/Users/toshi/Documents/gitrepos/Life_a_Zaim/Life_a_Zaim/app/views/cashflows/new.html.erb",
+		"/Users/toshi/Documents/gitrepos/Life_a_Zaim/Life_a_Zaim/app/views/cashflows/index.html.erb",
+		"/Users/toshi/Documents/gitrepos/Life_a_Zaim/Life_a_Zaim/app/views/cashflows/show.html.erb",
+		"/Users/toshi/Documents/gitrepos/Life_a_Zaim/Life_a_Zaim/app/views/layouts/application.html.erb",
+		"/Users/toshi/Documents/gitrepos/Life_a_Zaim/Life_a_Zaim/app/helpers/cashflows_helper.rb",
+		"/Users/toshi/Documents/gitrepos/Life_a_Zaim/Life_a_Zaim/db/schema.rb",
+		"/Users/toshi/Documents/gitrepos/Life_a_Zaim/Life_a_Zaim/Gemfile"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"deleteShop",
+			"change",
+			"addShopItem",
+			"newEmptyItem",
+			"activeresource",
+			"alert",
+			"alear",
+			"jGoogle",
+			"()",
+			"search_val",
+			"position",
+			"\n			",
+			"class",
+			"navbar",
+			"shop_books",
+			"shopping_bags",
+			"generalMaxItemId",
+			"getMaxItemId",
+			"index",
+			"launch_camera_p",
+			"launch_camera",
+			"launch_camera_p",
+			"body",
+			"@media",
+			"git ad",
+			"undefin",
+			"undefind",
+			"createEmptyShoppingBag",
+			"newEmptyShoppingBag\ncreateEmptyShoppingBag",
+			"newEmptyShoppingBag",
+			"createEmptyShop",
+			"newEmptyShop",
+			"getMaxId",
+			"getShops",
+			"prototype",
+			"shoppingBag",
+			"searchShop",
+			"alert",
+			"cam_image",
+			"camera_image",
+			"cam_image",
+			"lanch_camera",
+			"lanch",
+			"<p>",
+			"navbarBackground",
+			"A5C304",
+			"C0C3BA",
+			"#C0C3BA",
+			"bodyBackground",
+			"nav",
+			".btn",
+			"btn-danger",
+			"scss",
+			"base-color",
+			"base",
+			"-1",
+			"<!",
+			"cancel_new_shop_btn",
+			"class",
+			"clas",
+			"-1",
+			"TODO",
+			"-1",
+			"addShopItem",
+			"addshopitems",
+			"[];\n",
+			"deleteItem\n",
+			"}\n",
+			"deleteItem",
+			"}\n",
+			"deleteItem",
+			"cam_",
+			"splice",
+			"alert",
+			"onclick",
+			"searchShop",
+			"saveShop",
+			"getShoppingBag",
+			"shopBook",
+			"shop_book_name",
+			"shopBook",
+			"setShopBook",
+			"shopBookName",
+			"shopBooks",
+			"ShopBooks",
+			"ShopBookKey",
+			"}\n",
+			"shopBook",
+			"type=\"button\" ",
+			"shop_list",
+			"-->\n",
+			"\n				",
+			">\n",
+			" \n",
+			"index.html",
+			">\n",
+			"assets",
+			"css"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"shoppingBag",
+			"shop_name",
+			"shoppingBag",
+			"setShoppingBag",
+			"shopName",
+			"shoppingBag",
+			"ShoppingBag",
+			"shoppingBagKey",
+			"shoppingBack",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"gem",
+				"Gemfile.lock"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"ro",
+				"config/routes.rb"
+			],
+			[
+				"bootstrap",
+				"public/css/bootstrap.css"
+			],
+			[
+				"new_sho",
+				"public/new_shop.html"
+			],
+			[
+				"shopping.js",
+				"public/js/shopping.js"
+			],
+			[
+				"shopping",
+				"public/js/shopping.js"
+			],
+			[
+				"boost",
+				"public/css/bootstrap.css"
+			],
+			[
+				"new_s",
+				"public/new_shop.html"
+			],
+			[
+				"indx",
+				"public/index.html"
+			],
+			[
+				"unti",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,63 @@
+<style type="text/css">
+	body {height: 100%;}
+	#map {height: 100%;}
+</style>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+<section>
+	<input type="text" id="search_bar">
+	<button type="button" id="search_button">検索</button>
+</section>
+<section>
+	<%= @count %>
+	<div style="height:500px; width:500px;">
+		<div id="map"></div>
+	</div>
+</section>
+<script type="text/javascript">
+var map;
+function initialize(search_val) {
+	var pyrmont = new google.maps.LatLng(35, 135);
+	map = new google.maps.Map($("#map")[0], {
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		center: pyrmont,
+		zoom: 15
+	});
+
+	var request = {
+		location: pyrmont,
+		radius: '500',
+		query: search_val
+	};
+
+	var service = new google.maps.places.PlacesService(map);
+	service.textSearch(request, callback);
+	}
+
+function callback(results, status) {
+	if (status == google.maps.places.PlacesServiceStatus.OK) {
+		for (var i = 0; i < results.length; i++) {
+			var place = results[i];
+			createMarker(results[i]);
+		}
+		map.panTo(results[0].geometry.location);
+	}
+}
+
+function createMarker(placeResult) {
+
+	var marker = new google.maps.Marker ({
+		position: placeResult.geometry.location,
+		map: map,
+		title: placeResult.name
+	});
+}
+
+$("#search_button").click(function(){
+	var search_bar_val = $("#search_bar").val();
+	if (search_bar_val) {
+		//ssearch_bar_val = encodeURIComponent(search_bar_val);
+		initialize(search_bar_val);
+	}
+
+	});
+</script>	
