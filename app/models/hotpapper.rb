@@ -5,12 +5,12 @@ class Hotpapper < ActiveResource::Base
 	self.format = :json
 
 	API_KEY = 	"7b2c7f5d7c4cdff6"
+	# HOTPAPPER_PATH = "/hotpepper/large_service_area/v1/"
 	HOTPAPPER_PATH = "/hotpepper/gourmet/v1/"
-
 
 	def self.search_shop(lat, lng, range)
 		self.find(
-			:all,
+			:one,
 			:from => HOTPAPPER_PATH,
 			:params => {
 				:key => "#{API_KEY}",

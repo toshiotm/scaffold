@@ -8,30 +8,40 @@
 	<button type="button" id="search_button">検索</button>
 </section>
 <section>
-	<%= @count %>
 	<div style="height:500px; width:500px;">
 		<div id="map"></div>
 	</div>
+	<%= @count %>
+	<%	@shops.each do |s| %>
+	<p><%= s.name %></p>
+	<img src="<%= s.logo_image %>">
+	<% end %>
 </section>
 <script type="text/javascript">
 var map;
-function initialize(search_val) {
-	var pyrmont = new google.maps.LatLng(35, 135);
-	map = new google.maps.Map($("#map")[0], {
-		mapTypeId: google.maps.MapTypeId.ROADMAP,
-		center: pyrmont,
-		zoom: 15
-	});
 
+function new_map(center, zoom) {
+		map = new google.maps.Map($("#map")[0], {
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		center: center,
+		zoom: zoom
+	});
+	return map;
+}
+
+$(function(){
+	var center = new google.maps.LatLng(38, 138);
+	new_map(center, 5);
+});
+
+function search_free_word(search_val) {
 	var request = {
-		location: pyrmont,
-		radius: '500',
 		query: search_val
 	};
 
 	var service = new google.maps.places.PlacesService(map);
 	service.textSearch(request, callback);
-	}
+}
 
 function callback(results, status) {
 	if (status == google.maps.places.PlacesServiceStatus.OK) {
@@ -39,7 +49,9 @@ function callback(results, status) {
 			var place = results[i];
 			createMarker(results[i]);
 		}
-		map.panTo(results[0].geometry.location);
+		var latlng = results[0].geometry.location;
+		var center = new google.maps.LatLng(latlng.lat(), latlng.lng());
+		new_map(center, 12).panTo(results[0].geometry.location);
 	}
 }
 
@@ -56,7 +68,8 @@ $("#search_button").click(function(){
 	var search_bar_val = $("#search_bar").val();
 	if (search_bar_val) {
 		//ssearch_bar_val = encodeURIComponent(search_bar_val);
-		initialize(search_bar_val);
+		search_free_word
+	(search_bar_val);
 	}
 
 	});
