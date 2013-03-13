@@ -1,0 +1,51 @@
+<style type="text/css">
+	body {height: 100%;}
+	#map {height: 100%;}
+</style>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+<section>
+	<%= form_tag('search_keyword', :method => :get) do %>
+	<%= text_field_tag "key_word" %>
+	<%= submit_tag "検索" %>
+	<% end %>
+</section>
+<section>
+	<div style="height:500px; width:500px;">
+		<div id="map"></div>
+	</div>
+	<% if @shops || @shops = {} %>
+		<p>総件数：<%= @results_available %></p>
+		<p>表示件数：<%= @shops.size %></p>
+		<%	@shops.each do |s| %>
+		<p><%= s.name %></p>
+		<img src="<%= s.logo_image %>">
+		<% end %>
+	<% end %>
+</section>
+<script type="text/javascript">
+var map;
+
+function new_map(center, zoom) {
+		map = new google.maps.Map($("#map")[0], {
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		disableDefaultUI: true,
+		center: center,
+		zoom: zoom
+	});
+	return map;
+}
+
+$(function(){
+	var center = new google.maps.LatLng(38, 138);
+	new_map(center, 5);
+});
+
+function createMarker(placeResult) {
+
+	var marker = new google.maps.Marker ({
+		position: placeResult.geometry.location,
+		map: map,
+		title: placeResult.name
+	});
+}
+</script>	

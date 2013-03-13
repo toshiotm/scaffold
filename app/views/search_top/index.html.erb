@@ -4,8 +4,11 @@
 </style>
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
 <section>
-	<input type="text" id="search_bar">
+	<% form_tag :action => 'search_keyword' do %>
+	<%= text_field_tag "" %>
+	<%= submit_tag "検索" %>
 	<button type="button" id="search_button">検索</button>
+	<% end %>
 </section>
 <section>
 	<div style="height:500px; width:500px;">
@@ -23,6 +26,7 @@ var map;
 function new_map(center, zoom) {
 		map = new google.maps.Map($("#map")[0], {
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		disableDefaultUI: true,
 		center: center,
 		zoom: zoom
 	});
@@ -34,26 +38,26 @@ $(function(){
 	new_map(center, 5);
 });
 
-function search_free_word(search_val) {
-	var request = {
-		query: search_val
-	};
+// function search_free_word(search_val) {
+// 	var request = {
+// 		query: search_val
+// 	};
 
-	var service = new google.maps.places.PlacesService(map);
-	service.textSearch(request, callback);
-}
+// 	var service = new google.maps.places.PlacesService(map);
+// 	service.textSearch(request, callback);
+// }
 
-function callback(results, status) {
-	if (status == google.maps.places.PlacesServiceStatus.OK) {
-		for (var i = 0; i < results.length; i++) {
-			var place = results[i];
-			createMarker(results[i]);
-		}
-		var latlng = results[0].geometry.location;
-		var center = new google.maps.LatLng(latlng.lat(), latlng.lng());
-		new_map(center, 12).panTo(results[0].geometry.location);
-	}
-}
+// function callback(results, status) {
+// 	if (status == google.maps.places.PlacesServiceStatus.OK) {
+// 		for (var i = 0; i < results.length; i++) {
+// 			var place = results[i];
+// 			createMarker(results[i]);
+// 		}
+// 		var latlng = results[0].geometry.location;
+// 		var center = new google.maps.LatLng(latlng.lat(), latlng.lng());
+// 		new_map(center, 13).panTo(results[0].geometry.location);
+// 	}
+// }
 
 function createMarker(placeResult) {
 
@@ -65,11 +69,10 @@ function createMarker(placeResult) {
 }
 
 $("#search_button").click(function(){
-	var search_bar_val = $("#search_bar").val();
+	var search_bar_val = $("#key_word").val();
 	if (search_bar_val) {
-		//ssearch_bar_val = encodeURIComponent(search_bar_val);
-		search_free_word
-	(search_bar_val);
+		// search_free_word(search_bar_val);
+		$.get(/)
 	}
 
 	});

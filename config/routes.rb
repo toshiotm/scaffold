@@ -1,8 +1,12 @@
 Scaffold::Application.routes.draw do
   
-  resources :shops
+  #resources :shops
 
-  resources :search_top
+  resources :search_top do
+    collection do
+      get 'search_keyword'
+    end
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
